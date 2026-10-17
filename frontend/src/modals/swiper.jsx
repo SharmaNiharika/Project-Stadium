@@ -62,6 +62,7 @@ export default () => {
         pagination={{
           clickable: true,
         }}
+        loop={true}
         navigation={true}
         modules={[Autoplay]}
         className="mySwiper"

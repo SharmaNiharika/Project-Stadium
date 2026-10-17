@@ -8,8 +8,8 @@ function Navbar() {
   const [isFitnessOpen, setIsFitnessOpen] = useState(false);
 
   return (
-    <nav className="fixed top-0 start-0 z-20 w-full border-b border-gray-200 bg-black">
-      <div className="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between p-4">
+    <nav className="fixed top-0  z-30 w-full border-b border-gray-200 bg-black">
+      <div className="mx-auto flex  flex-wrap items-center justify-between p-4">
         <a href="#" className="flex items-center space-x-3">
           <img
             src={logo}
@@ -91,7 +91,7 @@ function Navbar() {
               </button>
 
               {isSportsOpen && (
-                <div className="relative mt-2 w-full rounded-lg border border-amber-300/30 bg-black shadow-lg md:absolute md:start-0 md:w-48">
+                <div className="relative mt-2 w-full rounded-lg border border-amber-300/30 bg-black shadow-lg md:absolute  md:w-48">
                   <ul className="p-2 text-sm text-amber-300">
                     {["Cricket", "Football", "Basketball", "Badminton"].map((item) => (
                       <li key={item}>
@@ -132,7 +132,7 @@ function Navbar() {
               </button>
 
               {isFitnessOpen && (
-                <div className="relative mt-2 w-full rounded-lg border border-amber-300/30 bg-black shadow-lg md:absolute md:start-0 md:w-48">
+                <div className="relative mt-2 w-full rounded-lg border border-amber-300/30 bg-black shadow-lg md:absolute  md:w-48">
                   <ul className="p-2 text-sm text-amber-300">
                     {["Gym", "Yoga", "Swimming", "Personal Training"].map((item) => (
                       <li key={item}>

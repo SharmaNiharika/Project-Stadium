@@ -6,8 +6,8 @@ import MainCard from '../modals/mainCard'
 
 const Hero = () => {
   return (
-    <div className='bg-black relative  h-screen w-full '>
-    <div className=' absolute flex justify-center items-center w-full h-full' >
+    <div className='bg-black  relative h-screen w-full h-100vh bord '>
+    <div className=' absolute t-0 flex justify-center items-center w-full h-100vh' >
         <Swiper/>
     </div>
 
@@ -17,7 +17,7 @@ const Hero = () => {
         
 
     </div>
-    <div className='absolute flex justify-center items-center w-full h-full z-20 text-amber-100'>
+    <div className='relative top-0 flex justify-center items-center w-full h-full z-20 text-amber-100'>
       
      
      <MainCard/>
